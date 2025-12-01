@@ -20,5 +20,5 @@ jobs:
 
       - name: Github Secret Variables 사용하기
         run: |
-          echo ${{My_ENV_NAME}}
-          echo ${{My_ENV_SECRET}}
+          echo ${{MY_ENV_NAME}}
+          echo ${{MY_ENV_SECRET}}
