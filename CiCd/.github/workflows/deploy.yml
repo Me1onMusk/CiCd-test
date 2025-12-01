@@ -9,7 +9,6 @@ on:
 jobs:
   My-First-CiCd-Job:
     runs-on: ubuntu-latest
-
-  steps:
-    - name: simple-web
-      run: echo "This is the first cicd step"
+    steps:
+      - name: simple-web
+        run: echo "This is the first cicd step"
