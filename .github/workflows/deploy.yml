@@ -12,3 +12,13 @@ jobs:
     steps:
       - name: simple-web
         run: echo "This is the first cicd step"
+
+      - name: Github Variables 사용하기
+        run:
+          echo $GITHUB_SHA
+          echo $GITHUB_Repository
+
+      - name: Github Secret Variables 사용하기
+        run: |
+          echo ${{My_ENV_NAME}}
+          echo ${{My_ENV_SECRET}}
